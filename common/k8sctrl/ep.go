@@ -34,6 +34,7 @@ type LocalDNSEndpoint struct {
 	TTL     endpoint.TTL
 	Labels  map[string]string
 	DNSName string
+	RecordType string
 }
 
 func (lep LocalDNSEndpoint) String() string {
